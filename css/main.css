@@ -1,0 +1,37 @@
+    body {
+        background-color: #FFDCDC;
+    }
+
+    .navbar-nav .nav-link {
+        color: #8D493A !important;
+        content-visibility: center;
+        /* Cambia a mi color preferido */
+    }
+
+    .navbar-brand {
+        color: #8D493A !important;
+        /* También el título CUPCAKES */
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        width: 70%;
+        /* Ajusta el ancho del área clicable */
+    }
+
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        background-size: 100% 100%;
+        /* Que el ícono se ajuste bien */
+    }
+
+    .carousel-item img {
+        max-height: 400px;
+        /* Altura que tú definas */
+        object-fit: cover;
+        /* Recorta sin deformar */
+        width: auto;
+        /* Que no se estire de más */
+        margin: 0 auto;
+        /* Centra la imagen */
+    }
