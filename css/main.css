@@ -13,25 +13,108 @@
         /* También el título CUPCAKES */
     }
 
+    /* Flechas que ayudan a cambiar las imagenes */
     .carousel-control-prev,
     .carousel-control-next {
-        width: 70%;
-        /* Ajusta el ancho del área clicable */
+        position: absolute;
+        top: 100%;
+        width: auto;
+        height: auto;
+        z-index: 10;
+    }
+
+    .carousel-control-prev {
+        left: 10px;
+    }
+
+    .carousel-control-next {
+        right: 10px;
     }
 
     .carousel-control-prev-icon,
     .carousel-control-next-icon {
         background-size: 100% 100%;
-        /* Que el ícono se ajuste bien */
+        width: 100%;
+        height: 100%;
     }
 
-    .carousel-item img {
-        max-height: 400px;
-        /* Altura que tú definas */
+    /* Marco del carousel con altura estable */
+    .carousel-frame {
+        height: 500px;
+        /* altura fija */
+        overflow: hidden;
+        /* Recorta lo que se sale del contenedor. Evita que se desborde.*/
+        position: relative;
+        /* Permite posicionar elementos hijos con absolute dentro del contenedor. */
+        border-radius: 12px;
+    }
+
+    /* Fondo a todo el ancho */
+    .carousel-wrapper {
+        width: 100%;
+        /* ocupa todo el ancho de la pantalla */
+        background-color: #FFD5D5;
+        /* tu fondo */
+        background-size: cover;
+        /* que se ajuste */
+        background-position: center;
+        background-repeat: no-repeat;
+        padding: 40px 50px;
+        /* espacio arriba y abajo */
+    }
+
+    /* Caja del carousel: controla ancho y borde opcional */
+    .carousel-box {
+        max-width: 100%;
+        /* ajusta a tu gusto */
+    }
+
+    /* Altura fija sin ratio en html */
+    #carouselExampleFade {
+        /* altura responsiva sin estirones */
+        height: 100%;
+        overflow: hidden;
+        position: relative;
+        border-radius: 100px;
+    }
+
+    #carouselExampleFade .carousel-item img {
+        width: 100%;
+        height: 100%;
         object-fit: cover;
-        /* Recorta sin deformar */
-        width: auto;
-        /* Que no se estire de más */
-        margin: 0 auto;
-        /* Centra la imagen */
+    }
+
+    /* Atexto dentro del carousel  */
+    .text-box {
+        color: #F75270;
+        padding: 20px;
+    }
+
+    .titulo {
+        font-size: 6rem;
+        font-weight: bold;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .descripcion {
+        font-size: 2.2rem;
+        line-height: 1.5;
+        text-align: center;
+    }
+
+    .carousel-box {
+        max-width: 100%;
+    }
+
+    /* Footer  */
+
+    .footer {
+        background-color: #FFF5F2;
+        text-align: center;
+        
+    }
+
+    .fw-bold {
+        color: #8D493A;
     }
