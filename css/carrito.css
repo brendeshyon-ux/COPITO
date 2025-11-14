@@ -1,0 +1,58 @@
+/* Fondo de la sección carrito */
+.carrito-section {
+    background-color: #FFD5D5;
+    /* pastel rosa */
+}
+
+.navbar-nav .nav-link {
+    color: #850E35 !important;
+    content-visibility: center;
+    /* Cambia a mi color preferido */
+}
+
+.navbar-brand {
+    color: #850E35 !important;
+    /* También el título CUPCAKES */
+}
+
+/* Título */
+.titulo-carrito {
+    color: #850E35;
+}
+
+/* Inputs de cantidad */
+.cantidad-input {
+    max-width: 80px;
+    text-align: center;
+}
+
+/* Card resumen */
+.card {
+    border-radius: 12px;
+}
+
+/* Botón personalizado */
+.btn-enviar {
+    background-color: #850E35;
+    /* rosa pastel */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 16px;
+}
+
+.btn-enviar:hover {
+    background-color: #EE6983;
+    color: white;
+}
+    /* Footer  */
+
+    .footer {
+        background-color: #FFF5F2;
+        text-align: center;
+        
+    }
+
+    .fw-bold {
+        color: #850E35;
+    }

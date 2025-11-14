@@ -1,0 +1,56 @@
+/* Fondo de la sección de productos */
+.productos-section {
+  background-color: #FFD5D5;
+  /* pastel rosa */
+}
+
+.navbar-nav .nav-link {
+  color: #850E35 !important;
+  content-visibility: center;
+  /* Cambia a mi color preferido */
+}
+
+.navbar-brand {
+  color: #850E35 !important;
+  /* También el título CUPCAKES */
+}
+
+/* Título */
+.titulo-productos {
+  color: #850E35 ;
+}
+
+/* Tarjetas */
+.card {
+  border-radius: 12px;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Botón personalizado */
+.btn-enviar {
+  background-color: #850E35;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+}
+
+.btn-enviar:hover {
+  background-color: #3A0519;
+  color: #FFF2EB;
+}
+
+/* Footer  */
+.footer {
+  background-color: #FFF2EB;
+  text-align: center;
+
+}
+
+.fw-bold {
+  color: #850E35;
+}
