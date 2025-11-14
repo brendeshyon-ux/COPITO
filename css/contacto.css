@@ -1,0 +1,97 @@
+    body {
+        background-color: #FFDCDC;
+    }
+
+    .navbar-nav .nav-link {
+        color: #850E35 !important;
+        content-visibility: center;
+        /* Cambia a mi color preferido */
+    }
+
+    .navbar-brand {
+        color: #850E35 !important;
+        /* También el título CUPCAKES */
+    }
+
+    .contact-section {
+        background-color: #F5D2D2;
+    }
+
+
+    /* CONTACTANOS */
+
+    .titulo-contacto {
+        color: #850E35 !important;
+    }
+
+    .btn-enviar {
+        background-color: #850E35;
+        /* rosa pastel */
+        color: white;
+        /* texto en blanco */
+        border: none;
+        /* sin borde */
+    }
+
+    .btn-enviar:hover {
+        background-color: #EE6983;
+        /* tono más fuerte al pasar el mouse */
+        color: white;
+        /* texto en blanco */
+    }
+
+    .titulo-ubucacion {
+        color: #850E35 !important;
+        text-align: center;
+    }
+
+
+    .card {
+        border-radius: 12px;
+    }
+
+    .card-body p {
+        margin-bottom: 8px;
+        color: #8D493A;
+    }
+
+
+    /* Footer */
+    .footer {
+        background-color: #FFD5D5;
+        /* color pastel */
+    }
+
+    .footer a:hover {
+        color: #8D493A;
+        /* color preferido al pasar el mouse */
+    }
+
+    /* Texto */
+    .text-box {
+        color: #8D493A;
+        padding: 20px;
+    }
+
+    .titulo {
+        font-size: 2rem;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    .descripcion {
+        font-size: 1.2rem;
+        line-height: 1.5;
+    }
+
+    /* Footer  */
+
+    .footer {
+        background-color: #FFF5F2;
+        text-align: center;
+
+    }
+
+    .fw-bold {
+        color: #850E35;
+    }

@@ -3,13 +3,13 @@
     }
 
     .navbar-nav .nav-link {
-        color: #8D493A !important;
+        color: #850E35!important;
         content-visibility: center;
         /* Cambia a mi color preferido */
     }
 
     .navbar-brand {
-        color: #8D493A !important;
+        color: #850E35 !important;
         /* También el título CUPCAKES */
     }
 
@@ -86,7 +86,7 @@
 
     /* Atexto dentro del carousel  */
     .text-box {
-        color: #F75270;
+        color: #850E35;
         padding: 20px;
     }
 
@@ -116,5 +116,5 @@
     }
 
     .fw-bold {
-        color: #8D493A;
+        color: #850E35;
     }
