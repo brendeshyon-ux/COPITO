@@ -3,7 +3,7 @@
     }
 
     .navbar-nav .nav-link {
-        color: #850E35!important;
+        color: #850E35 !important;
         content-visibility: center;
         /* Cambia a mi color preferido */
     }
@@ -112,7 +112,7 @@
     .footer {
         background-color: #FFF5F2;
         text-align: center;
-        
+
     }
 
     .fw-bold {
