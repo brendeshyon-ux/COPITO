@@ -1,18 +1,14 @@
-/* Fondo de la sección carrito */
 .carrito-section {
     background-color: #FFD5D5;
-    /* pastel rosa */
 }
 
 .navbar-nav .nav-link {
     color: #850E35 !important;
     content-visibility: center;
-    /* Cambia a mi color preferido */
 }
 
 .navbar-brand {
     color: #850E35 !important;
-    /* También el título CUPCAKES */
 }
 
 /* Título */
@@ -34,7 +30,6 @@
 /* Botón personalizado */
 .btn-enviar {
     background-color: #850E35;
-    /* rosa pastel */
     color: white;
     border: none;
     border-radius: 8px;
@@ -45,14 +40,14 @@
     background-color: #EE6983;
     color: white;
 }
-    /* Footer  */
 
-    .footer {
-        background-color: #FFF5F2;
-        text-align: center;
-        
-    }
+/* Footer  */
 
-    .fw-bold {
-        color: #850E35;
-    }
+.footer {
+    background-color: #FFF5F2;
+    text-align: center;
+}
+
+.fw-bold {
+    color: #850E35;
+}

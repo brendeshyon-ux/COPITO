@@ -1,18 +1,14 @@
-/* Fondo de la sección de productos */
 .productos-section {
   background-color: #FFD5D5;
-  /* pastel rosa */
 }
 
 .navbar-nav .nav-link {
   color: #850E35 !important;
   content-visibility: center;
-  /* Cambia a mi color preferido */
 }
 
 .navbar-brand {
   color: #850E35 !important;
-  /* También el título CUPCAKES */
 }
 
 /* Título */
@@ -48,7 +44,6 @@
 .footer {
   background-color: #FFF2EB;
   text-align: center;
-
 }
 
 .fw-bold {
