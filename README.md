@@ -13,3 +13,8 @@ Este es un proyecto de página web estática diseñado para un negocio ficticio 
 - HTML5: Estructura base de la página.
 - CSS3 (Estilos Personalizados): Pequeños ajustes de estilo para personalizar la apariencia.
 - Bootstrap 5: Framework CSS y JavaScript para el diseño responsivo y los componentes interactivos.
+- 
+ # Vista Previa del Proyecto
+[🍰 Puedes ver la página de cupcakes aquí.](https://brendeshyon-ux.github.io/COPITO/)
+
+
